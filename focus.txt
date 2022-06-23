@@ -1,0 +1,19 @@
+will the user have a class?
+
+define glitchbacks = ["bg glitch1", "bg glitch2", "bg glitch3",
+                      "bg glitch4", "bg glitch5", "bg glitch6", "bg glitch7"]\
+
+
+x = renpy.input("Number 1:", length=2)
+        xanswer = 11
+        y = renpy.input("Number 2:", length=2)
+        yanswer = 31
+        if x == 11 and y == 31:
+            renpy.pause(delay=2)
+        else:
+            renpy.say(narrator, "Incorrect.")
+            x = renpy.input("Number 1:", length=3)
+            y = renpy.input("Number 2:", length=3)
+
+
+            find a way to center text on glitch screens in screens.py    # line 1414, must be formatted better

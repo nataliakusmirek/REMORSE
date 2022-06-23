@@ -1,0 +1,22 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 38: python block expects a non-empty block.
+    init python:
+                ^
+
+File "game/script.rpy", line 41: expected statement.
+    def glitch(xinput, yinput):
+              ^
+
+File "game/script.rpy", line 51: expected statement.
+    def charleft():
+                ^
+
+File "game/script.rpy", line 58: expected statement.
+    def charright():
+                 ^
+
+Ren'Py Version: Ren'Py 7.4.11.2266
+Mon Jun  6 08:00:40 2022
